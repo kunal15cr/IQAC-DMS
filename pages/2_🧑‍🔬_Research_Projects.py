@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("Research Projects")
-
+from utility import insert_data, read_database
 
 
 
@@ -192,6 +192,20 @@ if submit_button:
 
         st.success("✅ Form Submitted Successfully!")
 
+        insert_data.insert_research_project(
+            division,
+            school,
+            department,
+            pi_co_pi,
+            project_title,
+            funding_agency,
+            grant_year,
+            abstract,
+            sanction_date,
+            sanctioned_grant,
+            sanction_letter_link
+)
+
         st.dataframe(
             {
                 "Field": [
@@ -224,3 +238,8 @@ if submit_button:
             use_container_width=True,
             hide_index=True
         )
+
+
+
+if st.button("show all data", type="primary"):
+    st.dataframe(read_database.Get_data())

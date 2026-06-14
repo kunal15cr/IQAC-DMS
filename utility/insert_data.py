@@ -172,44 +172,44 @@ def insert_consultancy_project(
         print("Error:", e)
 
 
-insert_research_project(
-    "Engineering",
-    "School of Technology",
-    "Computer Science",
-    "Dr. Shahbaz Dandin",
-    "AI Analytics Platform",
-    "UGC",
-    2025,
-    "Research on AI-based analytics.",
-    "2025-05-10",
-    500000,
-    "https://example.com/sanction.pdf"
-)
+# insert_research_project(
+#     "Engineering",
+#     "School of Technology",
+#     "Computer Science",
+#     "Dr. Shahbaz Dandin",
+#     "AI Analytics Platform",
+#     "UGC",
+#     2025,
+#     "Research on AI-based analytics.",
+#     "2025-05-10",
+#     500000,
+#     "https://example.com/sanction.pdf"
+# )
 
 
-insert_phd_scholar(
-    "Engineering",
-    "School of Technology",
-    "Computer Science",
-    "Kapil Patil",
-    "Dr. Shahbaz Dandin",
-    2022,
-    2026,
-    "2025-26",
-    "https://example.com/thesis.pdf"
-)
+# insert_phd_scholar(
+#     "Engineering",
+#     "School of Technology",
+#     "Computer Science",
+#     "Kapil Patil",
+#     "Dr. Shahbaz Dandin",
+#     2022,
+#     2026,
+#     "2025-26",
+#     "https://example.com/thesis.pdf"
+# )
 
-insert_consultancy_project(
-    "Engineering",
-    "School of Technology",
-    "Computer Science",
-    "Prof. ABC",
-    "June",
-    2025,
-    "XYZ Pvt Ltd",
-    "Data Analytics Consulting",
-    "3 Months",
-    150000,
-    "https://example.com/proof1.pdf",
-    "https://example.com/proof2.pdf"
-)
+# insert_consultancy_project(
+#     "Engineering",
+#     "School of Technology",
+#     "Computer Science",
+#     "Prof. ABC",
+#     "June",
+#     2025,
+#     "XYZ Pvt Ltd",
+#     "Data Analytics Consulting",
+#     "3 Months",
+#     150000,
+#     "https://example.com/proof1.pdf",
+#     "https://example.com/proof2.pdf"
+# )
